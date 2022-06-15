@@ -34,7 +34,7 @@ void merge(vector<int> &a , int l , int mid , int h)     // make sure you passed
     }
 
 
- //Code taken from Discussion
+ // above Code taken from Discussion
 };
         
         //Binary Search ! TLE

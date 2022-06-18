@@ -8,7 +8,7 @@ public:
             ans.push_back(op);
             return;
         }
-        if(isalpha(ip[0]))
+        if(isalpha(ip[0])) //check if input is alphabet 
         {
             string op1 = op;
             string op2 = op;
@@ -21,7 +21,7 @@ public:
             solve(ip,op2,ans);
             return;
         }
-        else
+        else //if ip is digit
         {
             string op0= op;
             op0.push_back(ip[0]);

@@ -14,11 +14,9 @@ public:
         ListNode *p=head,*q=head ;
         while(q&&q->next)
         {
-            p=p->next; //slow pointer
-            q=q->next->next; //fast pointer
+            p=p->next;
+            q=q->next->next;
         }return p;
-        
-        //when fast pointer reaches at 5th node, we can see the slow pointer at middle
         
         /*int count=-1;
         while(p)

@@ -1,6 +1,5 @@
 class Solution {
 public:
-    
     vector<vector<int>> subsets(vector<int>& nums) { 
        vector<vector<int>>output(1);
        set<vector<int> >s;
@@ -12,7 +11,7 @@ public:
         
    int find(int i, vector<int>&nums, int n,vector<vector<int>>&output, set<vector<int> >&s)
    {
-       if(i==n)// reached at the end of the numsay
+       if(i==n)// reached at the end of the nums array
        {
            return 1;
        }

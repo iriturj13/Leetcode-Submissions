@@ -9,6 +9,9 @@ class Solution:
 	        if(nums[i]>nums[i-1]):
 	            up=down+1
 	            
+	            #basically, increasing the length whenevr an peak is encountered
+	            
+	            
 	    return max(down,up)
 		# Code here
 
